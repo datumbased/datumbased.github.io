@@ -215,12 +215,13 @@ header.masthead .device-container .screen img {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 section.download h2 {
-  font-size: 50px;
+  font-size: 34px;
   margin-top: 0;
+  margin-bottom: 40px;
 }
 
 section.download .badges .badge-link {
@@ -250,7 +251,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+ /* margin-bottom: 100px;*/
 }
 
 section.features .section-heading h2 {
@@ -463,8 +464,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bottom-logo {
-  max-width: 100px;
-  margin: 0 0 2rem 0;
+    max-width: 80px;
+    margin: 0 0 4rem 0;
 }
 
 .upload-btn {
@@ -544,3 +545,29 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 #success.hidden {
   display: none;
 }
+
+.how-diagram {
+width: 85%;
+    margin: 2rem 0;
+}
+
+.diagram-item h4{
+  text-transform: uppercase;
+}
+
+.heading-title-text {
+    max-width: 600px;
+    margin: 1rem auto 0.5rem auto;
+    font-size: 22px;
+    color: #000;
+}
+
+.heading-subtext {
+  max-width: 600px;
+    margin: 1rem auto 0.5rem auto;
+    font-size: 20px;
+    font-style: italic;
+    color: #a1a1a1 !important;
+    font-weight: 100;
+}
+
