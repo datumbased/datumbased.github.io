@@ -1,0 +1,9 @@
+{
+    "title": "Datumbased",
+    "name": "datumbased",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+      "start": "hs -S -C server.crt -K server.key"
+    },
+}
