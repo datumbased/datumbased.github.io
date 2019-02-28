@@ -575,3 +575,19 @@ width: 85%;
     font-weight: 100;
 }
 
+.example-workflow {
+  max-width: 100%;
+  margin: 4rem 0 0 0;
+}
+
+p.text-muted.text-center.heading-title-text.quote-text {
+    font-size: 32px;
+    margin: 2rem auto;
+    font-style: italic;
+}
+
+p.text-muted.text-center.heading-title-text.quote-text i {
+    margin: 0 10px;
+    color: #d6ccf3;
+}
+
