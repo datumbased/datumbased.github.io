@@ -206,7 +206,7 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
   header.masthead .device-container {
     max-width: 325px;
@@ -553,6 +553,10 @@ width: 85%;
 
 .diagram-item h4{
   text-transform: uppercase;
+}
+
+.diagram-item p {
+  font-weight: 100;
 }
 
 .heading-title-text {
