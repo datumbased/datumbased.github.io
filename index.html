@@ -104,7 +104,8 @@
         <ol class="text-muted heading-title-text" style="text-align: left; font-weight: 300;max-width: 700px;">
           <li class="text-muted" style="margin-bottom: 1.5rem;">You solve your customers' needs through proof of concept data analysis and your tribal knowledge.</li>
           <li class="text-muted" style="margin-bottom: 1.5rem;">You use our Q&A web-interface to describe the data workflow and answer a series of iterative questions.</li>
-          <li class="text-muted" style="margin-bottom: 1.5rem;">We setup data contracts and deploy your analysis logic into our Datumbased cloud platform.</li>
+          <li class="text-muted" style="margin-bottom: 1.5rem;">We setup data contracts and deploy your analysis logic into our Datumbased cloud platform
+          <b>(Our top priority is keeping your IP secure)</b>.</li>
           <li class="text-muted" style="margin-bottom: 1.5rem;">You have a fully-managed, secure, scalable product within a couple weeks without hiring a team.</li>
         </ol>
       </div>
@@ -155,16 +156,73 @@
   <section class="features" id="example">
     <div class="container">
       <div class="section-heading text-center">
-        <h3 style="font-size: 3rem;">Example Workflow</h3>
-        <p class="text-muted text-center heading-title-text quote-text">
-          <i class="fa fa-quote-left"></i>I have historic sales & marketing data.
-          I'm trying to determine which ad to show to which potential customer to maximize profits.
-          <i class="fa fa-quote-right"></i>
-        </p>
-        <p class="text-muted" style="font-size: 20px;font-weight: 300;color: #b1b1b1 !important;">
-          Datumbased recommendation engine returns what ad to show to whom.
+        <h3 style="font-size: 3rem;">Example Workflows</h3>
 
-        <img class="example-workflow" src="img/example-workflow.png">
+        <ul class="nav nav-tabs" id="example-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#sales" role="tab" aria-controls="home" aria-selected="true">
+              Sales & Marketing
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#iot" role="tab" aria-controls="profile" aria-selected="false">
+              IoT
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="messages-tab" data-toggle="tab" href="#knowledge" role="tab" aria-controls="messages" aria-selected="false">
+              Intelligent Knowledge Sharing
+            </a>
+          </li>
+        </ul>
+
+        <!--
+          - Marketing & Sales
+          - IOT
+          - Intelligent Knowledge Sharing
+          - Business Intelligence & Report Generation (BI)
+
+        -->
+        <div class="tab-content">
+
+          <!-- Marketing & Sales -->
+          <div class="tab-pane active" id="sales" role="tabpanel" aria-labelledby="home-tab">
+            <p class="text-muted text-center heading-title-text quote-text">
+              <i class="fa fa-quote-left"></i>I have historic sales & marketing data.
+              I'm trying to determine which ad to show to which potential customer to maximize profits.
+              <i class="fa fa-quote-right"></i>
+            </p>
+            <p class="text-muted" style="font-size: 20px;font-weight: 300;color: #b1b1b1 !important;">
+              Datumbased recommendation engine returns what ad to show to whom.
+            <img class="example-workflow" src="img/marketing.png">
+          </div>
+
+          <!-- IoT -->
+          <div class="tab-pane" id="iot" role="tabpanel" aria-labelledby="profile-tab">
+            <p class="text-muted text-center heading-title-text quote-text">
+              <i class="fa fa-quote-left"></i>
+              I have a bunch of sensors providing data hourly. I’ve developed logic that customer’s
+              want but I don’t know how to go from concept to a secure, scalable product.
+              <i class="fa fa-quote-right"></i>
+            </p>
+            <p class="text-muted" style="font-size: 20px;font-weight: 300;color: #b1b1b1 !important;">
+              Datumbased will provide a secure, scalable product solution for IoT.
+            <img class="example-workflow" src="img/iot.png">
+          </div>
+          <div class="tab-pane" id="knowledge" role="tabpanel" aria-labelledby="messages-tab">
+            <p class="text-muted text-center heading-title-text quote-text">
+              <i class="fa fa-quote-left"></i>
+              I can never find anything in my organization’s shared files. How can I make this information
+              actionable without manually restructuring and organizing the documents?
+              <i class="fa fa-quote-right"></i>
+            </p>
+            <p class="text-muted" style="font-size: 20px;font-weight: 300;color: #b1b1b1 !important;">
+            Datumbased will provide a secure, scalable knowledge sharing <br>solution that allows for
+              fast search and quick retrieval.
+            <img class="example-workflow" src="img/knowledge.png">
+          </div>
+        </div>
+
       </div>
       <div class="row">
         <div class="col-lg-12 my-auto">
@@ -213,6 +271,25 @@
               <div class="col-lg-4">
                 <div class="feature-item">
                   <i class="icon-speedometer text-primary"></i>
+                  <h4>Maintain IP & Ownership</h4>
+                  <p class="text-muted">
+                    You maintain ownership over your supplied IP and business logic.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <i class="icon-lock text-primary"></i>
+                  <h4>Secure</h4>
+                  <p class="text-muted">
+                    No need to manage security compliance.
+                    We keep your IP secure.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <i class="icon-speedometer text-primary"></i>
                   <h4>Production-Ready</h4>
                   <p class="text-muted">
                     Get to production faster. Weeks instead of months or years.
@@ -228,15 +305,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="feature-item">
-                  <i class="icon-lock text-primary"></i>
-                  <h4>Secure</h4>
-                  <p class="text-muted">
-                    No need to manage security compliance or hire a security team.
-                  </p>
-                </div>
-              </div>
+
             </div>
             </div>
 
@@ -293,12 +362,12 @@
         <h2 style="margin-bottom:3rem; font-size: 42px;">Transform your prototype into a data-driven product today.</h2>
       </div>
 
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdedT7x54OXnzruvVanVwL2Ep1TpzcH_kV5wnpvx07uEauDPg/viewform?embedded=true" 
-        width="100%" 
-        height="627" 
-        frameborder="0" 
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdedT7x54OXnzruvVanVwL2Ep1TpzcH_kV5wnpvx07uEauDPg/viewform?embedded=true"
+        width="100%"
+        height="627"
+        frameborder="0"
         marginheight="0" marginwidth="0" style="overflow: hidden;">Loading...</iframe>
-    
+
     </div>
   </section>
 

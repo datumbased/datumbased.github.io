@@ -591,3 +591,12 @@ p.text-muted.text-center.heading-title-text.quote-text i {
     color: #d6ccf3;
 }
 
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+
+.nav-tabs {
+    text-align:center;
+}
