@@ -300,8 +300,10 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
-  background-image: url("");
+  padding: 7rem 0;
+  background-image: -moz-linear-gradient(0deg,#828fff 0%,#d496ff 100%);
+  background-image: -webkit-linear-gradient(0deg,#828fff 0%,#d496ff 100%);
+  background-image: -ms-linear-gradient(0deg,#828fff 0%,#d496ff 100%);
   background-position: center;
   background-size: cover;
 }
@@ -315,8 +317,15 @@ section.cta .cta-content h2 {
   font-size: 50px;
   max-width: 450px;
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 0.5rem;
   color: white;
+}
+
+section.cta .cta-content p {
+  color: #d1d1d1;
+}
+section.cta .cta-content h4 {
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -602,4 +611,20 @@ p.text-muted.text-center.heading-title-text.quote-text i {
     max-width: 800px;
     display: block;
     margin: 3rem auto;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.avatar img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
